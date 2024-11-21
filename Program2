@@ -32,7 +32,7 @@ class Program
 {
     static void Main()
     {
-        User user = new User(4, "Иван", "Петров");
-        Console.WriteLine(user.GetFullNameAndId()); // "Иван Петров c ID=4"
+        User user = new User(69, "Вася", "Пупкин");
+        Console.WriteLine(user.GetFullNameAndId()); 
     }
 }
