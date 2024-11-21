@@ -30,7 +30,7 @@ public class User
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
         User user = new User(4, "Иван", "Петров");
         Console.WriteLine(user.GetFullNameAndId()); // "Иван Петров c ID=4"
